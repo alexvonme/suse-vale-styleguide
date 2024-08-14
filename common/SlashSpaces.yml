@@ -1,0 +1,20 @@
+extends: substitution
+message: 'Use %s without spaces before or after slashes instead of %s'
+link: https://documentation.suse.com/style/current/html/docu_styleguide/sec-language.html#sec-slash
+ignorecase: true
+capitalize: true
+level: suggestion
+swap:
+  'allow\s?/\s?deny': 'allow/deny'
+  'AMD64\s?/\s?Intel': 'AMD64/Intel'
+  'client\s?/\s?server': 'client/server'
+  'input\s?/\s?output': 'input/output'
+  'I\s?/\s?O': 'I/O'
+  'N\s?/\s?A': 'N/A'
+  'read\s?/\s?write': 'read/write'
+  'R\s?/\s?W': 'R/W'
+  'SSL\s?/\s?TLS': 'SSL/TLS'
+  'sync\s?/\s?import': 'sync/import'
+  'read\s?/\s?write': 'read/write'
+  'TCP\s?/\s?IP': 'TCP/IP'
+  'Fi\s?/\s?Bluetooth': 'Fi/Bluetooth'
